@@ -2,13 +2,28 @@ package AnimalRescuer;
 
 public class Girl {
 
-    String ownerName = "Katherine";
-    double money = 4.500;
+    private String ownerName = "Katherine";
+    private double money = 4.558;
 
-    public void whatIsYourName(){
-        System.out.println("Katherine Pierce");
-
+    public String getOwnerName(){
+        return ownerName;
     }
+    public void setOwnerName( String ownerName){
+        this.ownerName = ownerName;
+    }
+
+    public double getMoney(){
+        return money;
+    }
+    public void setMoney( double money){
+        this.money = money;
+    }
+
+
+
+
+
+
 
 
 
