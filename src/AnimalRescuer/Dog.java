@@ -59,19 +59,12 @@ public class Dog {
         this.favoriteActivity = favoriteActivity;
     }
 
-
-
-
-
-
     public void run(){
        System.out.println( "Runing...");
     }
     public void play(){
         System.out.println("Looking for the ball ..");
     }
-
-
 
 }
 

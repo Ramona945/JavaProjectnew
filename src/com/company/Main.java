@@ -22,10 +22,7 @@ public class Main {
         firstModel();
         secondModel();
 
-
     }
-
-
 
     public static void firstModel(){
         System.out.println("     J      a     V       V     a      ");
@@ -34,8 +31,6 @@ public class Main {
         System.out.println("  JJ    a       a     V     a       a  ");
 
     }
-
-
 
     static public void secondModel(){
 
@@ -46,11 +41,6 @@ public class Main {
         System.out.println(" +_______+ ");
 
     }
-
-
-
-
-
 
 
 }

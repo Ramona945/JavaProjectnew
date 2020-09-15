@@ -10,9 +10,4 @@ public class RecreationActivity {
         this.nameActivity = nameActivity;
     }
 
-
-
-
-
-
 }

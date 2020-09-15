@@ -19,12 +19,4 @@ public class Girl {
         this.money = money;
     }
 
-
-
-
-
-
-
-
-
 }

@@ -38,32 +38,6 @@ public class AppMain {
         " to play" + activity.getNameActivity() + "with my beloved puppy.");
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
-
-
-
-
 
 }

@@ -19,34 +19,6 @@ public class Lab3 {
         int largest = everithing.theLargestNumber(0,-4,-2);
         System.out.println("The bigger number is: " + largest);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
 

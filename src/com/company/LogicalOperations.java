@@ -99,14 +99,5 @@ public class LogicalOperations {
            return imput;
     }
 
-
-
-
-
-
-
-
-
-
 }
 

@@ -37,5 +37,4 @@ public class PetFood {
         this.availability = availability;
     }
 
-
 }

@@ -19,9 +19,4 @@ public class Veterinarian {
       this.specialist = specialist;
    }
 
-
-
-
-
-
 }
