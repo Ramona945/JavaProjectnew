@@ -39,7 +39,11 @@ public class Lab4 {
         op.numerePareWhile();
         System.out.println("-------------");
         op.numereImpareWhile();
-        op.mediaSiSumaNumerelorCuWhile(5,10);
+        System.out.println("-------------");
+        op.cozaLozaWhile();
+
+
+
 
 
 
