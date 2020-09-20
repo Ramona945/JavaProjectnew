@@ -2,39 +2,17 @@ package AnimalRescuer;
 
 import java.security.KeyStore;
 
-public class PetFood {
+public class PetFood extends Food{
 
-    private String name = " American Journey";
-    private float foodPrice = 50;
-    private double quantity = 80;
-    private boolean availability = true;
+    private float proteinLevel;
 
-    public String getName(){
-        return name;
+
+    public float getProteinLevel() {
+        return proteinLevel;
     }
-    public void setName (String name){
-        this.name = name;
+    public void setProteinLevel(float proteinLevel) {
+        this.proteinLevel = proteinLevel;
     }
 
-    public float getFoodPrice(){
-        return foodPrice;
-    }
-    public void setFoodPrice(float foodPrice){
-        this.foodPrice = foodPrice;
-    }
-
-    public double getQuantity(){
-        return quantity;
-    }
-    public void setQuantity(double quantity){
-        this.quantity = quantity;
-    }
-
-    public boolean getAvailability(){
-        return availability;
-    }
-    public void setAvailability( boolean availability){
-        this.availability = availability;
-    }
 
 }

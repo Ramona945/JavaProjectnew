@@ -5,20 +5,36 @@ public class AppMain {
     public static void main(String[] args) {
 
         Dog myObject = new Dog();
-        myObject.play();
         Girl owner = new Girl();
         PetFood petFood = new PetFood();
         RecreationActivity  activity = new RecreationActivity();
         Veterinarian vet = new Veterinarian();
 
+
+        myObject.setName("Athos");
+        myObject.setIsMale(false);
+        myObject.setHealthCondition(8);
         myObject.setFeelingHungry(8);
         myObject.setStateOfMind(7);
+        myObject.setFavoriteFood("American Journey");
+        myObject.setFavoriteActivity("Find the ball");
+
+        owner.setName("Katherine");
+        owner.setMoney(4.558);
+
+        petFood.setName("American Journey");
         petFood.setQuantity(100);
         petFood.setFoodPrice(40);
+        petFood.setAvailability(true);
+
+        activity.setNameActivity("Find the ball");
+
+        vet.setName(" Damon Salvatore ");
+        vet.setSpecialist("Emergency and critical care ");
 
 
 
-        System.out.println("Hi, I'm "+ owner.getOwnerName() +", and " + myObject.getName() + " is my dog." + "\n" +
+        System.out.println("Hi, I'm "+ owner.getName() +", and " + myObject.getName() + " is my dog." + "\n" +
         "I saved him two months ago, being abandoned on the streets. He is an enthusiastic boy," +
         " especially when it comes to his favorite activity; " + activity.getNameActivity() + "." + "\n" + " " +
         "After I gave him a bath, I took him to" + vet.getName() + "," + " who is a very good veterinarian and " + "\n"+

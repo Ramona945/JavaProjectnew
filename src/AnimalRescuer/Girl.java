@@ -1,16 +1,13 @@
 package AnimalRescuer;
 
-public class Girl {
+public class Girl extends Human {
 
-    private String ownerName = "Katherine";
-    private double money = 4.558;
 
-    public String getOwnerName(){
-        return ownerName;
-    }
-    public void setOwnerName( String ownerName){
-        this.ownerName = ownerName;
-    }
+    private double money;
+    private String hairColor;
+
+
+
 
     public double getMoney(){
         return money;
@@ -18,4 +15,25 @@ public class Girl {
     public void setMoney( double money){
         this.money = money;
     }
+
+    public String getHairColor(){
+        return hairColor;
+    }
+    public void setHairColor(String hairColor) {
+        this.hairColor = hairColor;
+    }
+
+    public void sing(){
+        System.out.println(" Singing...");
+    }
+    public void jump(){
+        System.out.println(" Jumping...");
+    }
+    public void talk(){
+        System.out.println("Talking...");
+    }
+
+
+
+
 }

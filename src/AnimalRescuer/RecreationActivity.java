@@ -1,13 +1,15 @@
 package AnimalRescuer;
 
-public class RecreationActivity {
-    private String nameActivity = " Find the ball";
+public class RecreationActivity extends Activity {
 
-    public String getNameActivity(){
-        return nameActivity;
-    }
-    public void setNameActivity(String nameActivity){
-        this.nameActivity = nameActivity;
-    }
+    private String typeObjectNeeded;
 
+
+
+    public String getTypeObjectNeeded() {
+        return typeObjectNeeded;
+    }
+    public void setTypeObjectNeeded(String typeObjectNeeded) {
+        this.typeObjectNeeded = typeObjectNeeded;
+    }
 }

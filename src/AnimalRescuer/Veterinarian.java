@@ -1,16 +1,12 @@
 package AnimalRescuer;
 
-public class Veterinarian {
+public class Veterinarian extends Human {
 
-   private String name = " Damon Salvatore ";
-   private String specialist = "Emergency and critical care ";
 
-   public String getName(){
-      return name;
-   }
-   public void setName(String name){
-      this.name = name;
-   }
+   private String specialist;
+   private boolean bald;
+
+
 
    public String getSpecialist(){
       return specialist;
@@ -18,5 +14,28 @@ public class Veterinarian {
    public void setSpecialist(String specialist){
       this.specialist = specialist;
    }
+
+   public boolean isBald(){
+      return bald;
+   }
+   public void setBald(boolean bald) {
+      this.bald = bald;
+   }
+
+   public void clientConsult (){
+      System.out.println(" Consulting the client... ");
+   }
+   public void talk (){
+      System.out.println(" Talking... ");
+   }
+   public void work (){
+      System.out.println(" Working... ");
+   }
+
+
+
+
+
+
 
 }

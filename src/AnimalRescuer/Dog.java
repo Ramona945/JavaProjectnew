@@ -1,49 +1,14 @@
 package AnimalRescuer;
 
-public class Dog {
+public class Dog extends Animal {
 
-    private String name = "Athos";
-    private Boolean isMale = true;
-    private int healthCondition = 8;
-    private float feelingHungry = 6;
-    private float stateOfMind = 9;
-    private String favoriteFood = "American Journey";
-    private String favoriteActivity = "Find the ball";
 
-    public String getName(){
-        return name;
-    }
-    public void setName ( String name){
-        this.name = name;
-    }
-
-    public Boolean getIsMale(){
-        return isMale;
-    }
-    public void setIsMale( Boolean isMale) {
-        this.isMale = isMale;
-    }
-
-    public int getHealthCondition(){
-        return healthCondition;
-    }
-    public void setHealthCondition(int healthCondition){
-        this.healthCondition = healthCondition;
-    }
-
-    public float getFeelingHungry(){
-        return feelingHungry;
-    }
-    public void setFeelingHungry(float feelingHungry){
-        this.feelingHungry = feelingHungry;
-    }
-
-    public float getStateOfMind(){
-        return stateOfMind;
-    }
-    public void setStateOfMind(float stateOfMind){
-        this.stateOfMind = stateOfMind;
-    }
+    private String favoriteFood;
+    private String favoriteActivity;
+    private String fur;
+    private float fangs;
+    private Boolean snout;
+    private int tail;
 
     public String getFavoriteFood(){
         return favoriteFood;
@@ -59,12 +24,56 @@ public class Dog {
         this.favoriteActivity = favoriteActivity;
     }
 
+    public String getfur(){
+        return fur;
+    }
+    public void setFur( String fur){
+        this.fur = fur;
+    }
+
+    public float getFangs(){
+        return fangs;
+    }
+    public void setFangs(float fangs){
+        this.fangs = fangs;
+    }
+
+    public Boolean getSnout(){
+        return snout;
+    }
+    public void setSnout(Boolean snout){
+        this.snout = snout;
+    }
+
+    public int getTail(){
+        return tail;
+    }
+    public void setTail( int tail){
+        this.tail = tail;
+    }
+
+
+
+
     public void run(){
        System.out.println( "Runing...");
     }
-    public void play(){
-        System.out.println("Looking for the ball ..");
+    public void walk(){
+        System.out.println("Walking...");
     }
+    public void bark(){
+        System.out.println("Barking...");
+    }
+    public void snore(){
+        System.out.println("Snoring...");
+    }
+    public void jump(){
+        System.out.println("Jumping...");
+    }
+    public void sniff(){
+        System.out.println("Sniffing...");
+    }
+
 
 }
 
