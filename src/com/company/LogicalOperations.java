@@ -1,5 +1,9 @@
 package com.company;
 
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+
 public class LogicalOperations {
 
 
@@ -209,29 +213,30 @@ public class LogicalOperations {
         do {
             System.out.println(i);
             i++;
-        } while (i <= q) ;
+        } while (i <= q);
 
         int j = q;
         do {
             System.out.println(j);
             j++;
-        } while(j <= e);
+        } while (j <= e);
 
     }
-    public void numerePareWhile(){
-    int i = 1;
-        while(i<= 100) {
-        if (i % 2 == 0) {
-            System.out.println(i);
-        }
-        i++;
 
-       }
-    }
-
-    public void numereImpareWhile(){
+    public void numerePareWhile() {
         int i = 1;
-        while(i<= 100) {
+        while (i <= 100) {
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
+            i++;
+
+        }
+    }
+
+    public void numereImpareWhile() {
+        int i = 1;
+        while (i <= 100) {
             if (i % 2 == 1) {
                 System.out.println(i);
             }
@@ -241,35 +246,131 @@ public class LogicalOperations {
     }
 
 
-
     int i = 1;
 
-  public void cozaLozaWhile() {
+    public void cozaLozaWhile() {
 
-      while (i <= 110) {
-          boolean test = false;
-          if (i % 3 == 0) {
-              System.out.print("coza");
-              test = true;
-          }
-          if (i % 5 == 0) {
-              System.out.print("loza");
-              test = true;
-          }
-          if (i % 7 == 0) {
-              System.out.print("woza");
-              test = true;
-          }
-          if (!test) {
-              System.out.print(i);
-          }
-          System.out.print(" ");
-          if (i % 11 == 0) {
-              System.out.println();
-          }
-          i++;
-      }
-  }
+        while (i <= 110) {
+            boolean test = false;
+            if (i % 3 == 0) {
+                System.out.print("coza");
+                test = true;
+            }
+            if (i % 5 == 0) {
+                System.out.print("loza");
+                test = true;
+            }
+            if (i % 7 == 0) {
+                System.out.print("woza");
+                test = true;
+            }
+            if (!test) {
+                System.out.print(i);
+            }
+            System.out.print(" ");
+            if (i % 11 == 0) {
+                System.out.println();
+            }
+            i++;
+        }
+    }
+
+
+    public int[] getArrayToNumber(int maxValue) {
+        int[] myArray = new int[maxValue];
+
+        for (int i = 0; i < myArray.length; i++) {
+            myArray[i] = i + 1;
+
+        }
+        return myArray;
+    }
+
+    public void printArray(int[] myArray) {
+        for (int i : myArray) {
+            System.out.println(i);
+        }
+    }
+
+
+    public int[] arrayToHundred(int max) {
+        int[] myFirstRay = new int[max];
+        for (int i = 0; i < myFirstRay.length; i++) {
+            myFirstRay[i] = i + 1;
+            System.out.println("Pe pozitia " + i + " este valoarea " + myFirstRay[i]);
+        }
+        return myFirstRay;
+    }
+
+
+    public int[] arrayEvenNumbers(int maxNr) {
+        int[] mySecondRay = new int[maxNr];
+        for (int i = 0; i < mySecondRay.length; i++) {
+            mySecondRay[i] = i + 1;
+            if (mySecondRay[i] % 2 == 0) {
+                System.out.println(mySecondRay[i]);
+            }
+        }
+        return mySecondRay;
+    }
+
+
+    public int sumOfArrayNumbers ( int[] array) {
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            sum = sum + array[i];
+        }
+        return sum;
+    }
+
+
+
+    public void addInList( List<Integer> secList, Integer value) {
+
+        secList.add(value);
+    }
+
+    public void listOfElements(List<String>firstList){
+        for (String i :firstList ){
+            System.out.println(i);
+
+        }
+
+    }
+
+    public void listAllTheElemets(List<Integer>thirdList, Integer value){
+        for (int i = value ; i<thirdList.size(); i++){
+            System.out.println(thirdList.get(i));
+        }
+    }
+
+    public void listReverse( List<Integer>forthList){
+        for(int i =forthList.size()-1 ; i>=0; i--){
+            System.out.println(forthList.get(i));
+        }
+    }
+
+
+    public void addStringToList ( List<String> fifthList, Integer position, String index){
+        fifthList.add(position , index);
+
+    }
+
+    public void showListAndElements (List<Integer> listElements){
+        for( int i=0; i <listElements.size(); i++){
+            System.out.println("Pe pozitia " + i + " este valoarea " + listElements.get(i));
+        }
+    }
+
+    public void theLargestNumberFromTheList (List<Integer> randomElements ){
+        System.out.println(" Highest number is: "+ Collections.max(randomElements));
+    }
+    
+
+
+
+
+
 
 
 
