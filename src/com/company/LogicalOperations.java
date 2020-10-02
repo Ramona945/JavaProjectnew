@@ -293,16 +293,6 @@ public class LogicalOperations {
     }
 
 
-    public int[] arrayToHundred(int max) {
-        int[] myFirstRay = new int[max];
-        for (int i = 0; i < myFirstRay.length; i++) {
-            myFirstRay[i] = i + 1;
-            System.out.println("Pe pozitia " + i + " este valoarea " + myFirstRay[i]);
-        }
-        return myFirstRay;
-    }
-
-
     public int[] arrayEvenNumbers(int maxNr) {
         int[] mySecondRay = new int[maxNr];
         for (int i = 0; i < mySecondRay.length; i++) {
@@ -315,7 +305,7 @@ public class LogicalOperations {
     }
 
 
-    public int sumOfArrayNumbers ( int[] array) {
+    public int sumOfArrayNumbers(int[] array) {
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
             sum = sum + array[i];
@@ -324,19 +314,19 @@ public class LogicalOperations {
     }
 
 
-
-    public void addInList( List<Integer> secList, Integer value) {
+    public void addInList(List<Integer> secList, Integer value) {
 
         secList.add(value);
     }
 
-    public void listOfElements(List<String>firstList){
-        for (String i :firstList ){
+    public void listOfElements(List<String> firstList) {
+        for (String i : firstList) {
             System.out.println(i);
 
         }
 
     }
+
 
     public void listAllTheElemets(List<Integer>thirdList, Integer value){
         for (int i = value ; i<thirdList.size(); i++){
@@ -365,7 +355,8 @@ public class LogicalOperations {
     public void theLargestNumberFromTheList (List<Integer> randomElements ){
         System.out.println(" Highest number is: "+ Collections.max(randomElements));
     }
-    
+
+
 
 
 

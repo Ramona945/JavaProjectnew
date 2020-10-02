@@ -29,11 +29,28 @@ public class Girl extends Human {
     public void jump(){
         System.out.println(" Jumping...");
     }
-    public void talk(){
-        System.out.println("Talking...");
+
+
+    @Override
+    public void eat() {
+        System.out.println("Eating little...");
     }
 
+    @Override
+    public void sleep() {
+        System.out.println("Sleeping a few hours...");
 
+    }
 
+    @Override
+    public void think() {
+        System.out.println("Thinking a lot...");
 
+    }
+
+    @Override
+    public void speak() {
+        System.out.println("Speaking slowly...");
+
+    }
 }

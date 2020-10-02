@@ -25,11 +25,30 @@ public class Veterinarian extends Human {
    public void clientConsult (){
       System.out.println(" Consulting the client... ");
    }
-   public void talk (){
-      System.out.println(" Talking... ");
+
+   @Override
+   public void eat() {
+      System.out.println();
    }
-   public void work (){
-      System.out.println(" Working... ");
+
+   @Override
+   public void sleep() {
+      System.out.println("Sleeping restlessly...");
+
+   }
+
+   @Override
+   public void think() {
+      System.out.println("Thinking...");
+   }
+
+   @Override
+   public void speak() {
+      System.out.println("Talking loudly... ");
+
+   }
+   public void work(){
+      System.out.println("Working usually");
    }
 
 

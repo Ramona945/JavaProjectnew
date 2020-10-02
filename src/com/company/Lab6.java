@@ -69,6 +69,13 @@ public class Lab6 {
         randomElements.add(55);
         randomElements.add(34);
         op.theLargestNumberFromTheList(randomElements);
+        System.out.println("________________");
+
+
+        List<Integer>listCuNumere= Arrays.asList(3,56,34,25,26,84,22,8,1,9,62);
+
+
+
 
 
 

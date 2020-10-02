@@ -7,7 +7,7 @@ public class Food {
     private double quantity;
     private boolean availability;
     private String taste;
-    private String color;
+    private  String color;
     private float weight;
     private String origin;
 

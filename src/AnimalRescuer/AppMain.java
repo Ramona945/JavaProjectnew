@@ -8,7 +8,10 @@ public class AppMain {
         Girl owner = new Girl();
         PetFood petFood = new PetFood();
         RecreationActivity  activity = new RecreationActivity();
-        Veterinarian vet = new Veterinarian();
+        Veterinarian vet= new Veterinarian();
+
+
+
 
 
         myObject.setName("Athos");

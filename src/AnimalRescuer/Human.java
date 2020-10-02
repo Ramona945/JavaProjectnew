@@ -1,6 +1,6 @@
 package AnimalRescuer;
 
-public class Human {
+public abstract class Human {
 
     private String name;
     private int age;
@@ -56,17 +56,10 @@ public class Human {
         this.gender = gender;
     }
 
-
-    public void eat(){
-        System.out.println(" Eating...");
-    }
-    public void sleep(){
-        System.out.println(" Sleeping...");
-    }
-    public void think (){
-        System.out.println(" Thinking... ");
-    }
-
+    public abstract void eat();
+    public abstract void sleep();
+    public abstract void think ();
+    public abstract void speak();
 
 
 
